@@ -10,8 +10,8 @@
           aria-label="Menu"
           @click="toggleLeftDrawer"
         />
-
-        <q-toolbar-title>Quasar CLI with Vite App</q-toolbar-title>
+        <q-btn icon="home" flat to="/" />
+        <q-toolbar-title>Tool</q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
